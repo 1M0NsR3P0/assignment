@@ -16,7 +16,7 @@
 /* Header style */
 .background{
    
-    background-image: url('/assignment2/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     height: 710px;
     width: 100%;
     background-repeat: no-repeat;
@@ -108,7 +108,8 @@ text-align: center;
 
 /* footer banner */
 .footer-banner{
-   background-image: url("../images/watch.png");
+   background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
    background-position: center;
    background-repeat: no-repeat;
    height: 250px;
@@ -137,9 +138,7 @@ text-align: center;
     margin-bottom: 20px;
 }
 /* footer section */
-#Subscribe{
-    background-color: red;
-}
+
 .footer-container{
     background-color: rgb(27, 27, 27);
     display: flex;
@@ -170,12 +169,32 @@ text-align: center;
 .footer-icon{
     margin-bottom: 50px;
     margin-top: 20px;
+    
 }
+.footer-icon img{
+    padding-right: 20px;
+}
+/* form section */
 
-
-
-
-
+.form h2{
+    margin-bottom: 20px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 20px 40px 20px 15px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+#Subscribe{
+    background-color: red;
+    margin-left: 0.5px;
+    width: 140px;
+    padding: 10px 25px;
+    font-weight: bolder;
+}
 
 
 
