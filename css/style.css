@@ -15,8 +15,8 @@
     }
 /* Header style */
 .background{
-    /* ami ki repo arekta khulbo? */
-    background-image: url('../images/banner/banner1.png');
+   
+    background-image: url('/assignment2/images/banner/banner1.png');
     height: 710px;
     width: 100%;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ text-align: center;
 }
 .footer-banner h2{
     padding-left: 50px;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-right: 400px;
     padding-bottom: 20px;
     font-size: 40px;
@@ -134,9 +134,43 @@ text-align: center;
     font-size: 18px;
     padding: 10px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
-
-
+/* footer section */
+#Subscribe{
+    background-color: red;
+}
+.footer-container{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    text-align: left;
+    gap: 200px;
+    padding: 150px 150px 50px 200px;
+    color: white;
+    padding-bottom:100px ;
+    
+}
+.footer-title{
+    margin-bottom:15px ;
+    font-size: 22px;
+    font-weight: 900;
+}
+.footer-para{
+    margin-bottom: 10px;
+    padding-right: 150px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.footer-mail{
+    margin-bottom: 15px;
+}
+.footer-phone{
+    margin-bottom:15px ;
+}
+.footer-icon{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
 
 
 
